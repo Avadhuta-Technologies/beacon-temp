@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)file:///home/vikram/Downloads/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beacon India — Under Maintenance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link href="./Beacon India — Under Maintenance_files/css2" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0a1628;
+      --surface: #111f3a;
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.25);
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --border: rgba(255,255,255,0.06);
+    }
+
+    html, body { height: 100%; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* subtle radial glow */
+    body::before {
+      content: '';
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      animation: pulse 6s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .5; transform: translate(-50%, -50%) scale(1); }
+      50%      { opacity: .8; transform: translate(-50%, -50%) scale(1.15); }
+    }
+
+    .card {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      max-width: 520px;
+      padding: 56px 40px;
+      border-radius: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: 0 24px 64px rgba(0,0,0,.4);
+      animation: fadeUp .8s ease-out both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* gear icon */
+    .icon {
+      width: 64px; height: 64px;
+      margin: 0 auto 28px;
+      animation: spin 8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.85rem;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      margin-bottom: 12px;
+    }
+
+    .divider {
+      width: 48px; height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      margin: 0 auto 20px;
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: .95rem;
+      line-height: 1.7;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .contact {
+      margin-top: 32px;
+      font-size: .85rem;
+      color: var(--text-muted);
+    }
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover { text-decoration: underline; }
+
+    @media (max-width: 560px) {
+      .card { margin: 20px; padding: 40px 24px; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <!-- Gear SVG icon -->
+    <svg class="icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M32 20a12 12 0 1 0 0 24 12 12 0 0 0 0-24Zm0 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z" fill="#3b82f6"></path>
+      <path d="M58.3 26.1l-5.2-.9a21.6 21.6 0 0 0-2.5-6l3.1-4.2a2.5 2.5 0 0 0-.3-3.3l-3.1-3.1a2.5 2.5 0 0 0-3.3-.3l-4.2 3.1a21.6 21.6 0 0 0-6-2.5l-.9-5.2A2.5 2.5 0 0 0 33.5 1.5h-4.4a2.5 2.5 0 0 0-2.5 2.2l-.9 5.2a21.6 21.6 0 0 0-6 2.5L15.5 8.3a2.5 2.5 0 0 0-3.3.3l-3.1 3.1a2.5 2.5 0 0 0-.3 3.3l3.1 4.2a21.6 21.6 0 0 0-2.5 6l-5.2.9a2.5 2.5 0 0 0-2.2 2.5v4.4a2.5 2.5 0 0 0 2.2 2.5l5.2.9a21.6 21.6 0 0 0 2.5 6l-3.1 4.2a2.5 2.5 0 0 0 .3 3.3l3.1 3.1a2.5 2.5 0 0 0 3.3.3l4.2-3.1a21.6 21.6 0 0 0 6 2.5l.9 5.2a2.5 2.5 0 0 0 2.5 2.2h4.4a2.5 2.5 0 0 0 2.5-2.2l.9-5.2a21.6 21.6 0 0 0 6-2.5l4.2 3.1a2.5 2.5 0 0 0 3.3-.3l3.1-3.1a2.5 2.5 0 0 0 .3-3.3l-3.1-4.2a21.6 21.6 0 0 0 2.5-6l5.2-.9a2.5 2.5 0 0 0 2.2-2.5v-4.4a2.5 2.5 0 0 0-2.2-2.5Z" fill="#3b82f6" opacity=".25"></path>
+    </svg>
+
+    <h1>We'll Be Right Back</h1>
+    <div class="divider"></div>
+    <p>
+      Our website is currently undergoing scheduled maintenance.
+      We're working to improve your experience and will be back online shortly.
+    </p>
+
+    <div class="contact">
+      Need immediate assistance? Reach us at
+      <a href="mailto:support@beacon-india.com">support@beacon-india.com</a>
+    </div>
+  </div>
+
+
+
+</body></html>
